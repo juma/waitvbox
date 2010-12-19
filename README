@@ -7,3 +7,12 @@ Usage
 -----
 
  vboxwait <vbox-home> <vm-name> <client-command> <host>
+
+An example:
+
+ > vboxwait "C:\Program Files\Oracle\VirtualBox" ubuntu "C:\Program Files\putty\putty.exe" 192.168.137.2
+
+Compile
+-------
+
+ > cl -Os waitvbox.cpp
