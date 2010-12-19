@@ -52,7 +52,7 @@ WinMain(HINSTANCE inst, HINSTANCE prevInst, LPSTR cmd, int cmdshow)
     PROCESS_INFORMATION pi;
 
     if (__argc < 5) {
-        MessageBox(0, "usage: vboxwait <vbox-home> <vm-name> <client-command> <host>", 0, 0);
+        MessageBox(0, "usage: waitvbox <vbox-home> <vm-name> <client-command> <host>", 0, 0);
         return 1;
     }
 
