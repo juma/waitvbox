@@ -1,0 +1,9 @@
+waitvbox
+========
+
+Launch VBoxHeadless with putty. Savestate when putty closed.
+
+Usage
+-----
+
+ vboxwait <vbox-home> <vm-name> <client-command> <host>
